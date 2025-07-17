@@ -11,6 +11,6 @@ public class Stream1 {
                 .filter(ename -> ename.startsWith("r"))
                 .collect(Collectors.toList()); // Using Collectors.toList()
         System.out.println(newNames); // Output: [rahul]
-        
+        System.out.println("Type of newNames: " + newNames.getClass().getName());
     }
 }
