@@ -13,6 +13,7 @@ public class JDBCEX {
         String url = "jdbc:mysql://localhost:3306/pacchu";
         String username = "root";
         String password = "root";
+        String name="dd";
 
         // SQL statement to create the table
         String createTableSQL = "CREATE TABLE IF NOT EXISTS users (" +
