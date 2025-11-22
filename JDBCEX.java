@@ -7,6 +7,7 @@ import java.sql.Statement;
 
 public class JDBCEX {
 
+
     public static void main(String[] args) {
         // Database credentials and URL
         String url = "jdbc:mysql://localhost:3306/pacchu";
