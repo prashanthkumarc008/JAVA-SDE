@@ -4,6 +4,4 @@ public class array {
         System.out.println(arr[4]);
     }
 
-
-
 }
