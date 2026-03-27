@@ -4,9 +4,6 @@ interface Animal {
   public void sleep(); // interface method (does not have a body)
 }
 
-
-
-
 // Pig "implements" the Animal interface
 class Pig implements Animal {
   public void animalSound() {
